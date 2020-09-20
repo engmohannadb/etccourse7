@@ -1,0 +1,32 @@
+html,body{font-family: 'Cairo', sans-serif;height: 100%;width: 100%;background-image: url(../img/bg.png); background-color: #6d517e}
+.btn-outline-success{border-radius: 25px;background-color: #b55169;color: white;border-color: #b55169;width: -webkit-fill-available;}
+.btn-outline-success:hover{background-color: #6e3643;border-color: #6e3643}
+.main h1,h5,p{color: white;}
+.col-md-6 h1{padding-top: 150px}
+
+
+
+
+
+
+
+.btn-outline-success:not(:disabled):not(.disabled).active, .btn-outline-success:not(:disabled):not(.disabled):active, .show>.btn-outline-success.dropdown-toggle {
+    color: #fff;
+    background-color: #b55169;
+    border-color: #b55169;
+}
+
+
+
+
+.btn-outline-success.focus, .btn-outline-success:focus {
+    box-shadow:0 0 0 0.2rem #b55169!important;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+   .img-content{display: none}
+    .col-md-6 h1{padding-top: 0px}
+  }
+}
