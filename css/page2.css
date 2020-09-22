@@ -64,10 +64,10 @@ a:focus {
 
 #sidebar {
     padding-right: 60px;
-    width: 362px;
+    width: 549px;
     position: fixed;
     top: 0;
-    right: -385px;
+    right: -559px;
     height: 100vh;
     z-index: 999;
     background: #FFFFFF;
@@ -199,16 +199,16 @@ a.article:hover {
     color: #fff !important;
 }
 .bg-light {
-    background-color: #b55169!important;
+    background-color: #363972!important;
 }
-.breadcrumb{background-color: #b55169;direction: rtl;}
+.breadcrumb{background-color: #363972;direction: rtl;}
 .breadcrumb a{color: white}
 .breadcrumb-item.active{color: white}
 /* ---------------------------------------------------
     CONTENT STYLE
 ----------------------------------------------------- */
 .btn-secondary{background-color: #F7F9FB;border-color: #F7F9FB;border-radius: 20px;color: #143146;}
-.btn-secondary:hover{background-color: #6e3643;border-color: #6e3643}
+.btn-secondary:hover{background-color: #363972;border-color: #363972}
 #content {
     width: 100%;
     
